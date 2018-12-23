@@ -42,13 +42,13 @@ Here you will need to copy and paste the values from STEP 1 into the correspondi
 
 Next, we will need you to select a default **Transaction Speed** value. `HIGH Risk` speed require 1 confirmation, and can be used for digital goods or low-risk items. `MEDIUM Risk` speed require at least 2 confirmations, and should be used for mid-value items. `LOW Risk` speed require at least 6 confirmations (averaging 30 mins, depending on selected cryptocurrency), and should be used for high-value items.
 
-![Step 2](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/authorization.png)
+![Step 2](https://github.com/atomicpay/prestashop-plugin/blob/master/assets/authorization.png)
 
 Click on the button **Save Setting**. The module will attempt to connect to AtomicPay Server for an authorization.
 
 Once authorization is successful, you should see the following message "Settings updated. Authorization Successful"
 
-![Successful Message](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/success.png)
+![Successful Message](https://github.com/atomicpay/prestashop-plugin/blob/master/assets/success.png)
 
 ## Usage
 Once activated, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your PrestaShop backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other modules.
