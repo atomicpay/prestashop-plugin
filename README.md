@@ -1,4 +1,4 @@
-![AtomicPay](https://github.com/atomicpay/prestashop-plugin/blob/master/templates/images/atomicpay-plugin-header.png)
+![AtomicPay](https://github.com/atomicpay/prestashop-plugin/blob/master/assets/atomicpay-plugin-header.png)
 ## AtomicPay For PrestaShop Module
 This is an open source module for PrestaShop, allowing merchants to start accepting cryptocurrency payments on their PrestaShop website by simply installing the module. AtomicPay is a decentralized cryptocurrency payment processor that eliminates the involvement of a third-party payment gateway, allowing merchants to accept payments directly from their customers, in a secured and trustless environment.
 
