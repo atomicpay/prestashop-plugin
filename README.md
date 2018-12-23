@@ -19,18 +19,18 @@ AtomicPay For PrestaShop module is designed to be **"Plug-n-Play" installation**
 - Once registered, you may retrieve the API keys by login to [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. If your key becomes compromised, you may revoke the keys by regenerating new set of keys.
 
 ## Installation
-Visit the [Releases](https://github.com/atomicpay/woocommerce-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to Wordpress's **Adminstration Panels > Plugins > Add New > Upload Plugin**, select the downloaded file and click **Install Now**. After the plugin is installed, click on **Activate**.
+Visit the [Releases](https://github.com/atomicpay/woocommerce-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to PrestaShop Admin's **Modules > Module Catalog > Install a module**, select the downloaded file and installation will auto-run. After the module is installed, click on **Configure**.
 
 **WARNING:** It is good practice to backup your databases before installing plugins. Please make sure you have created backups.
 
 ### Youtube Video - Step by Step Installation
 Click on the image to view our installation video
 
-[![Video - Step by Step Installation For WooCommerce Plugin](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/video.png)](https://www.youtube.com/watch?v=AO7Hdkdwr5s)
+[![Video - Step by Step Installation For PrestaShop](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/video.png)](https://www.youtube.com/watch?v=AO7Hdkdwr5s)
 
 ## Authorization Pairing
-Authorization Pairing can be performed using the Administrator section of Wordpress.
-Once logged in, you can find the configuration settings under **WooCommerce > Settings > Payments > AtomicPay**.
+Authorization Pairing can be performed using the Setting section of AtomicPay module.
+Once logged in, you can find the configuration settings under **Modules > Module manager > Other > AtomicPay > Configure**.
 
 #### STEP 1
 Login to your [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. You will need the following values for next step: `ACCOUNT ID`, `PRIVATE KEY` and `PUBLIC KEY`.
@@ -40,47 +40,32 @@ Login to your [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) 
 #### STEP 2
 Here you will need to copy and paste the values from STEP 1 into the corresponding fields: `Account ID`, `Private Key` and `Public Key`.
 
+Next, we will need you to select a default **Transaction Speed** value. `HIGH Risk` speed require 1 confirmation, and can be used for digital goods or low-risk items. `MEDIUM Risk` speed require at least 2 confirmations, and should be used for mid-value items. `LOW Risk` speed require at least 6 confirmations (averaging 30 mins, depending on selected cryptocurrency), and should be used for high-value items.
+
 ![Step 1](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/step-1.png)
 
 #### STEP 3
-Click on the button **Request Authorization**. The plugin will attempt to connect to AtomicPay Server for an authorization.
+Click on the button **Save Setting**. The module will attempt to connect to AtomicPay Server for an authorization.
 
 ![Step 2](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/step-2.png)
 
 #### FINAL STEP
-Once authorization is successful, you should see the following dialog popup.
+Once authorization is successful, you should see the following message "Settings updated. Authorization Successful"
 
 ![Step 3](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/step-3.png)
 
-## Configuration
-#### Transaction Speed
-Next, we will need you to select a default **Transaction Speed** value. `HIGH Risk` speed require 1 confirmation, and can be used for digital goods or low-risk items. `MEDIUM Risk` speed require at least 2 confirmations, and should be used for mid-value items. `LOW Risk` speed require at least 6 confirmations (averaging 30 mins, depending on selected cryptocurrency), and should be used for high-value items.
-
-![Transaction Speed](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/step-4.png)
-
-#### Order Status
-Here you can configure how AtomicPay's IPN (Instant Payment Notifications) trigger the various order states in your WooCommerce store. You may leave it as our default values which are common values for majority of stores.
-
-![Order States](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/step-6.png)
-
-Once configurated, click **Save Changes** at the bottom of the page. Congrats your plugin is activated and the Pay with AtomicPay option will be available during your customer checkout process.
-
-![Save Changes](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/step-5.png)
-
 ## Usage
-Once activated, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your WooCommerce backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. That will be no conflicts with other plugins.
+Once activated, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your PrestaShop backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other modules.
 
 ## Troubleshooting and Debugging
-AtomicPay for WooCommerce Plugin is designed with an easy-to-understand and detailed debug logging feature. In the event where you experience issues or bugs, please activate the Debug Log option and replicate the issue. Click on View Logs and you will be able to detect any events associated with [Error]. Open an issue with your debug logs by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
-
-![Debug Log](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/step-7.png)
+In the event where you experience issues or bugs, please open an issue by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
 
 ## Contributions & Developments
-Anyone and everyone is welcome to contribute or develop for this plugin. Please take a moment to review the [guidelines for contributing to AtomicPay for WooCommerce Plugin](https://github.com/atomicpay/woocommerce-plugin/blob/master/CONTRIBUTING.md).
+Anyone and everyone is welcome to contribute or develop for this plugin. Please take a moment to review the [guidelines for contributing to AtomicPay for PrestaShop Module](https://github.com/atomicpay/prestashop-plugin/blob/master/CONTRIBUTING.md).
 
 - [Bug reports](CONTRIBUTING.md#bugs)
 - [Feature requests](CONTRIBUTING.md#features)
 - [Pull requests](CONTRIBUTING.md#pull-requests)
 
 ## License
-AtomicPay is released under the MIT License. Please refer to the [License](https://github.com/atomicpay/woocommerce-plugin/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.
+AtomicPay is released under the MIT License. Please refer to the [License](https://github.com/atomicpay/prestashop-plugin/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.
