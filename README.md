@@ -13,15 +13,15 @@ This is an open source module for PrestaShop, allowing merchants to start accept
 * PHP >= 5.4 (Tested on v7.1)
 
 ## Getting Started
-AtomicPay For PrestaShop module is designed to be **"Plug-n-Play" installation** without any programming knowledge. Anyone can do it! To set up our plugin quickly, please follow the following guide.
+AtomicPay For PrestaShop module is designed to be **"Plug-n-Play" installation** without any programming knowledge. Anyone can do it! To set up our module quickly, please follow the following guide.
 
-- You must have a AtomicPay merchant account and API keys to use this plugin. It's free to [sign-up for a AtomicPay merchant account](https://merchant.atomicpay.io/beta-registration)
+- You must have a AtomicPay merchant account and API keys to use this module. It's free to [sign-up for a AtomicPay merchant account](https://merchant.atomicpay.io/beta-registration)
 - Once registered, you may retrieve the API keys by login to [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. If your key becomes compromised, you may revoke the keys by regenerating new set of keys.
 
 ## Installation
 Visit the [Releases](https://github.com/atomicpay/prestashop-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to PrestaShop Admin's **Modules > Module Catalog > Install a module**, select the downloaded file and installation will auto-run. After the module is installed, click on **Configure**.
 
-**WARNING:** It is good practice to backup your databases before installing plugins. Please make sure you have created backups.
+**WARNING:** It is good practice to backup your databases before installing modules. Please make sure you have created backups.
 
 ### Youtube Video - Step by Step Installation
 Click on the image to view our installation video
@@ -57,7 +57,7 @@ Once authorized, your customers will be given the option to pay via AtomicPay wh
 In the event where you experience issues or bugs, please open an issue by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
 
 ## Contributions & Developments
-Anyone and everyone is welcome to contribute or develop for this plugin. Please take a moment to review the [guidelines for contributing to AtomicPay for PrestaShop Module](https://github.com/atomicpay/prestashop-plugin/blob/master/CONTRIBUTING.md).
+Anyone and everyone is welcome to contribute or develop for this module. Please take a moment to review the [guidelines for contributing to AtomicPay for PrestaShop Module](https://github.com/atomicpay/prestashop-plugin/blob/master/CONTRIBUTING.md).
 
 - [Bug reports](CONTRIBUTING.md#bugs)
 - [Feature requests](CONTRIBUTING.md#features)
