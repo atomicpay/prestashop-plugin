@@ -18,13 +18,14 @@ AtomicPay For PrestaShop module is designed to be **"Plug-n-Play" installation**
 
 - You must have a AtomicPay merchant account and API keys to use this module. It's free to [sign-up for a AtomicPay merchant account](https://merchant.atomicpay.io/beta-registration)
 - Once registered, you may retrieve the API keys by login to [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. If your key becomes compromised, you may revoke the keys by regenerating new set of keys.
+- Below is the installation guide for PrestaShop v1.7. For v1.6 installation, we will release a step by step video shortly
 
-## Installation
+## Installation Guide For v1.7
 Visit the [Releases](https://github.com/atomicpay/prestashop-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to PrestaShop Admin's **Modules > Module Catalog > Install a module**, select the downloaded file and installation will auto-run. After the module is installed, click on **Configure**.
 
 **WARNING:** It is good practice to backup your databases before installing modules. Please make sure you have created backups.
 
-### Youtube Video - Step by Step Installation
+### Youtube Video - Step by Step Installation For >= v1.7
 Click on the image to view our installation video
 
 [![Video - Step by Step Installation For PrestaShop](https://github.com/atomicpay/prestashop-plugin/blob/master/assets/video.png)](https://youtu.be/4yJbK6K9kO4)
