@@ -19,7 +19,7 @@ AtomicPay For PrestaShop module is designed to be **"Plug-n-Play" installation**
 - Once registered, you may retrieve the API keys by login to [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. If your key becomes compromised, you may revoke the keys by regenerating new set of keys.
 
 ## Installation
-Visit the [Releases](https://github.com/atomicpay/woocommerce-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to PrestaShop Admin's **Modules > Module Catalog > Install a module**, select the downloaded file and installation will auto-run. After the module is installed, click on **Configure**.
+Visit the [Releases](https://github.com/atomicpay/prestashop-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to PrestaShop Admin's **Modules > Module Catalog > Install a module**, select the downloaded file and installation will auto-run. After the module is installed, click on **Configure**.
 
 **WARNING:** It is good practice to backup your databases before installing plugins. Please make sure you have created backups.
 
@@ -51,7 +51,7 @@ Once authorization is successful, you should see the following message "Settings
 ![Successful Message](https://github.com/atomicpay/prestashop-plugin/blob/master/assets/success.png)
 
 ## Usage
-Once activated, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your PrestaShop backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other modules.
+Once authorized, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your PrestaShop backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other modules.
 
 ## Troubleshooting and Debugging
 In the event where you experience issues or bugs, please open an issue by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
