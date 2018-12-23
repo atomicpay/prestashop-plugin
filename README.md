@@ -9,7 +9,7 @@ This is an open source module for PrestaShop, allowing merchants to start accept
 ## Server Requirements
 
 * [PrestaShop](https://www.prestashop.com/en/system-requirements) >= 1.6
-* SSL is recommended
+* SSL is Highly Recommended
 * [PHP5 Curl](http://php.net/manual/en/curl.installation.php) Must be compiled with PHP
 * PHP >= 5.4 (Tested on v7.1)
 
