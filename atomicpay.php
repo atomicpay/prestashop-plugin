@@ -122,6 +122,29 @@ class AtomicPay extends PaymentModule
         return true;
     }
 
+
+    public function hookPayment($params)
+    {
+        if (!$this->active) {
+            return null;
+        }
+
+        if (!$this->checkCurrency($params['cart'])) {
+            return null;
+        }
+
+        if (!Configuration::get('ATOMICPAY_API_ACCOUNTID') || !Configuration::get('ATOMICPAY_API_PUBLICKEY') || !Configuration::get('ATOMICPAY_API_PRIVATEKEY')) {
+            return [];
+        }
+
+        $this->smarty->assign(array(
+            'this_path' => $this->_path,
+            'this_path_bw' => $this->_path,
+        ));
+
+        return $this->display(__FILE__, 'payment.tpl');
+    }
+
     public function hookPaymentOptions($params)
     {
         if (!$this->active) {
