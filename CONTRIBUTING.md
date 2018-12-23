@@ -1,5 +1,4 @@
-# Contributing to AtomicPay for WooCommerce Plugin
-
+# Contributing to AtomicPay for PrestaShop Module
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
 
