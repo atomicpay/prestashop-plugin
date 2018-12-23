@@ -3,18 +3,17 @@
 This is an open source module for PrestaShop, allowing merchants to start accepting cryptocurrency payments on their PrestaShop website by simply installing the module. AtomicPay is a decentralized cryptocurrency payment processor that eliminates the involvement of a third-party payment gateway, allowing merchants to accept payments directly from their customers, in a secured and trustless environment.
 
 ## Prerequisites
-* Last Version Tested: Wordpress 5.0.1 WooCommerce 3.5.2
+* Compatible with v1.6 and v1.7. Last Version Tested: PrestaShop 1.7.5
 
 ## Server Requirements
 
-* [Wordpress](https://wordpress.org/about/requirements/) >= 3.9
-* [WooCommerce](http://docs.woothemes.com/document/server-requirements/) >= 2.4
-* [OpenSSL](http://us2.php.net/openssl) Must be compiled with PHP
+* [PrestaShop](https://www.prestashop.com/en/system-requirements) >= 1.6
+* SSL Enabled is preferred
 * [PHP5 Curl](http://php.net/manual/en/curl.installation.php) Must be compiled with PHP
 * PHP >= 5.4 (Tested on v7.1)
 
 ## Getting Started
-AtomicPay For WooCommerce Plugin is designed to be **"Plug-n-Play" installation** without any programming knowledge. Anyone can do it! To set up our plugin quickly, please follow the following guide.
+AtomicPay For PrestaShop module is designed to be **"Plug-n-Play" installation** without any programming knowledge. Anyone can do it! To set up our plugin quickly, please follow the following guide.
 
 - You must have a AtomicPay merchant account and API keys to use this plugin. It's free to [sign-up for a AtomicPay merchant account](https://merchant.atomicpay.io/beta-registration)
 - Once registered, you may retrieve the API keys by login to [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. If your key becomes compromised, you may revoke the keys by regenerating new set of keys.
