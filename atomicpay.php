@@ -139,7 +139,7 @@ class AtomicPay extends PaymentModule
 
         $this->smarty->assign(array(
             'this_path' => $this->_path,
-            'this_path_bw' => $this->_path,
+            'this_path_bw' => Configuration::get('PS_FO_PROTOCOL').$_SERVER['HTTP_HOST'].__PS_BASE_URI__."modules/{$this->name}/"
         ));
 
         return $this->display(__FILE__, 'payment.tpl');
