@@ -26,7 +26,7 @@ Visit the [Releases](https://github.com/atomicpay/prestashop-plugin/releases) pa
 ### Youtube Video - Step by Step Installation
 Click on the image to view our installation video
 
-[![Video - Step by Step Installation For PrestaShop](https://github.com/atomicpay/prestashop-plugin/blob/master/assets/video.png)](https://www.youtube.com/watch?v=AO7Hdkdwr5s)
+[![Video - Step by Step Installation For PrestaShop](https://github.com/atomicpay/prestashop-plugin/blob/master/assets/video.png)](https://youtu.be/4yJbK6K9kO4)
 
 ## Authorization Pairing
 Authorization Pairing can be performed using the Setting section of AtomicPay module.
