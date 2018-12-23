@@ -19,7 +19,7 @@ AtomicPay For PrestaShop module is designed to be **"Plug-n-Play" installation**
 - Once registered, you may retrieve the API keys by login to [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. If your key becomes compromised, you may revoke the keys by regenerating new set of keys.
 
 ## Installation
-Visit the [Releases](https://github.com/atomicpay/woocommerce-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to PrestaShop Admin's **Modules > Module Catalog > Install a module**, select the downloaded file and installation will auto-run. After the module is installed, click on **Configure**.
+Visit the [Releases](https://github.com/atomicpay/prestashop-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to PrestaShop Admin's **Modules > Module Catalog > Install a module**, select the downloaded file and installation will auto-run. After the module is installed, click on **Configure**.
 
 **WARNING:** It is good practice to backup your databases before installing plugins. Please make sure you have created backups.
 
@@ -42,16 +42,16 @@ Here you will need to copy and paste the values from STEP 1 into the correspondi
 
 Next, we will need you to select a default **Transaction Speed** value. `HIGH Risk` speed require 1 confirmation, and can be used for digital goods or low-risk items. `MEDIUM Risk` speed require at least 2 confirmations, and should be used for mid-value items. `LOW Risk` speed require at least 6 confirmations (averaging 30 mins, depending on selected cryptocurrency), and should be used for high-value items.
 
-![Step 2](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/authorization.png)
+![Step 2](https://github.com/atomicpay/prestashop-plugin/blob/master/assets/authorization.png)
 
 Click on the button **Save Setting**. The module will attempt to connect to AtomicPay Server for an authorization.
 
 Once authorization is successful, you should see the following message "Settings updated. Authorization Successful"
 
-![Successful Message](https://github.com/atomicpay/woocommerce-plugin/blob/master/templates/images/success.png)
+![Successful Message](https://github.com/atomicpay/prestashop-plugin/blob/master/assets/success.png)
 
 ## Usage
-Once activated, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your PrestaShop backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other modules.
+Once authorized, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your PrestaShop backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other modules.
 
 ## Troubleshooting and Debugging
 In the event where you experience issues or bugs, please open an issue by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
