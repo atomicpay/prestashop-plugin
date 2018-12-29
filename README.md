@@ -11,8 +11,8 @@ This is an open source module for PrestaShop, allowing merchants to start accept
 * SSL is Highly Recommended
 * [PrestaShop](https://www.prestashop.com/en/system-requirements) >= 1.6
 * [PHP5 Curl](http://php.net/manual/en/curl.installation.php) Must be compiled with PHP
-* JSON
 * PHP >= 5.4 (Tested on v7.1)
+* JSON
 
 ## Getting Started
 AtomicPay For PrestaShop module is designed to be **"Plug-n-Play" installation** without any programming knowledge. Anyone can do it! To set up our module quickly, please follow the following guide.
