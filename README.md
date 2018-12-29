@@ -12,6 +12,8 @@ We develop in lightning speed! If you would like to keep up with what we are bui
 * [Official Telegram](https://t.me/atomicpay)
 * And obviously, please follow us on [Official Github](https://github.com/atomicpay)
 
+Meanwhile, here is a short deck to learn more about AtomicPay: https://www.slideshare.net/atomicpay/atomicpay-decentralized-noncustodial-payment-gateway-126944216
+
 ## Prerequisites
 * Compatible with v1.6 and v1.7.
 * **Last Version Tested:** PrestaShop 1.7.5
