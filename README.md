@@ -56,6 +56,8 @@ Once authorization is successful, you should see the following message "Settings
 ## Usage
 Once authorized, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your PrestaShop backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other modules.
 
+**Note: In order for AtomicPay to generate payment invoices, please remember to setup your cryptocurrency view-only wallets at AtomicPay Merchant Panel.**
+
 ## Troubleshooting and Debugging
 In the event where you experience issues or bugs, please open an issue by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
 
