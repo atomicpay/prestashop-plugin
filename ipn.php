@@ -61,7 +61,7 @@ if(false === empty($post) && function_exists('json_decode'))
 
 				if($atm_payment_rate != ""){ $atm_payment_rate = "$atm_payment_rate $atm_order_currency"; }
 
-				$explode_order_id = explode('-',$atm_order_id);
+				$explode_order_id = explode('-ID-',$atm_order_id);
 				$atm_order_reference = $explode_order_id[0];
 				$atm_order_id = $explode_order_id[1];
 

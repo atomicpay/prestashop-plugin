@@ -15,7 +15,7 @@ class AtomicPayPayModuleFrontController extends ModuleFrontController
         $currency_code = $currency->iso_code;
 
         $orderID = $order->id;
-        $orderString = "$orderReference-$orderID";
+        $orderString = "$orderReference-ID-$orderID";
         $order_total = $order->total_paid;
         $order_total = round($order_total, 2);
         $notification_email = $customer->email;
